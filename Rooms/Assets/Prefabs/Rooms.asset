@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8abe9ca93c9c9c54793bd9a9522ab39d, type: 3}
+  m_Name: Rooms
+  m_EditorClassIdentifier: 
+  Rooms_Obj:
+  - Key: {fileID: 6179266453372130942, guid: cfc067781d1553f498f0bbecdc5de003, type: 3}
+    Unit: {fileID: 1703559413369912397, guid: b1d483a3df7b8324cab42847886ea2d4, type: 3}
+  - Key: {fileID: 3536835350508449987, guid: 65964ee86bc88394db852091bee8392d, type: 3}
+    Unit: {fileID: 5541419062271602171, guid: 7f2cdfc4f9c766b4ba8f5d2c820083ed, type: 3}
+  - Key: {fileID: 8961222880485448344, guid: b13c1ce22f9ce724fb76351d59198bad, type: 3}
+    Unit: {fileID: 7141568052617096907, guid: 41577238560954342add579da29819f6, type: 3}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 0
