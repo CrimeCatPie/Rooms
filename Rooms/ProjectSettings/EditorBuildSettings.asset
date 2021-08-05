@@ -6,12 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Room1.unity
+    path: Assets/Scenes/ReNature.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Room2.unity
     guid: 1b88119501589784aa4fb51c8a566799
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Room3.unity
     guid: 55c61a5fb82a51845a48ef983b63b055
+  - enabled: 1
+    path: Assets/Scenes/Room 3132.unity
+    guid: 1c49729cdc52ead4bba6f6ebf737faaf
   m_configObjects: {}
