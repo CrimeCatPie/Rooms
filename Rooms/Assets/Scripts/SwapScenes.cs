@@ -5,15 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class SwapScenes : MonoBehaviour
 {
-    void Start()
-    {
-
-    }
+    [SerializeField] private BoxCollider player;
 
     private void OnTriggerEnter(Collider other)
     {
-        var scene = RandomScene.GetScene();
-        Debug.Log(scene);
-        SceneManager.LoadScene(scene);
+        if (other == player)
+        {
+            var scene = RandomScene.GetScene();
+            Debug.Log(scene);
+            SceneManager.LoadScene(scene);
+        }
     }
 }
