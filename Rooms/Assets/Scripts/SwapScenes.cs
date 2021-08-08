@@ -12,7 +12,6 @@ public class SwapScenes : MonoBehaviour
         if (other == player)
         {
             var scene = RandomScene.GetScene();
-            Debug.Log(scene);
             SceneManager.LoadScene(scene);
         }
     }
