@@ -17,11 +17,11 @@ public class RandomLightMovement : MonoBehaviour
         float positionX = (float)System.Math.Round(Random.Range(-1.0f, 1.0f), System.MidpointRounding.AwayFromZero);
 
         if (transform.position.z > 157 || transform.position.z < 183) {
-            transform.position = transform.position + new Vector3(0, 0, positionZ * 0.05f);
+            transform.position = transform.position + new Vector3(0, 0, positionZ * 0.1f);
         }
 
         if (transform.position.x > 62 || transform.position.x < 92) {
-            transform.position = transform.position + new Vector3(positionX * 0.05f, 0, 0);
+            transform.position = transform.position + new Vector3(positionX * 0.1f, 0, 0);
         }
     }
 }
