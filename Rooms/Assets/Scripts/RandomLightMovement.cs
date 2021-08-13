@@ -15,13 +15,13 @@ public class RandomLightMovement : MonoBehaviour
     {
         float positionZ = (float)System.Math.Round(Random.Range(-1.0f, 1.0f), System.MidpointRounding.AwayFromZero);
         float positionX = (float)System.Math.Round(Random.Range(-1.0f, 1.0f), System.MidpointRounding.AwayFromZero);
-
-        if (transform.position.z > 157 || transform.position.z < 183) {
-            transform.position = transform.position + new Vector3(0, 0, positionZ * 0.05f);
+        var newPositionZ = transform.position + new Vector3(0, 0, positionZ);
+        var newPositionX = transform.position + new Vector3(positionX, 0, 0);
+        if (newPositionZ.z >= -17 && newPositionZ.z <= 17) {
+            transform.position = newPositionZ;
         }
-
-        if (transform.position.x > 62 || transform.position.x < 92) {
-            transform.position = transform.position + new Vector3(positionX * 0.05f, 0, 0);
+        if (newPositionX.x >= -17 && newPositionX.x <= 17) {
+            transform.position = newPositionX;
         }
     }
 }
