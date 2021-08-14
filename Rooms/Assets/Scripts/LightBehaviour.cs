@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(AudioSource))]
 public class LightBehaviour : MonoBehaviour
 {
-    private float updateStep = 0.1f;
+    private float updateStep = 0.01f;
     private float currentUpdateTime = 0f;
  
     private float clipLoudness;
@@ -26,7 +26,7 @@ public class LightBehaviour : MonoBehaviour
             currentUpdateTime = 0f;
             clipLoudness = OutputVolume.GetRMS(256, 0);
             material.SetColor("_EmissionColor", new Color(1.91f,0.58f,0.0f,0.0f) * clipLoudness);
-            GetComponent<Light>().intensity = clipLoudness * 300.0f;
+            GetComponent<Light>().intensity = clipLoudness * 800.0f;
         }
     }
 }
