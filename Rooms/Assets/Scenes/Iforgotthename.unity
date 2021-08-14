@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 8900000, guid: 0c085f19b79e32449bb6b0ed628d448e, type: 3}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414736, b: 0.121078536, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -680,6 +680,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1415630681}
+  anim: {fileID: 1306810006}
 --- !u!54 &434874336
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1272,6 +1273,68 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: -26.077, y: -181.882, z: -82.428}
+--- !u!1001 &1306810005
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5445628799598876088, guid: 50ee48e0fc4e3d442b04b5c975c45651, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445628799598876088, guid: 50ee48e0fc4e3d442b04b5c975c45651, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.041053534
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445628799598876088, guid: 50ee48e0fc4e3d442b04b5c975c45651, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.7646606
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445628799598876088, guid: 50ee48e0fc4e3d442b04b5c975c45651, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.3370476
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445628799598876088, guid: 50ee48e0fc4e3d442b04b5c975c45651, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445628799598876088, guid: 50ee48e0fc4e3d442b04b5c975c45651, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445628799598876088, guid: 50ee48e0fc4e3d442b04b5c975c45651, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445628799598876088, guid: 50ee48e0fc4e3d442b04b5c975c45651, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445628799598876088, guid: 50ee48e0fc4e3d442b04b5c975c45651, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445628799598876088, guid: 50ee48e0fc4e3d442b04b5c975c45651, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445628799598876088, guid: 50ee48e0fc4e3d442b04b5c975c45651, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8425293069587294176, guid: 50ee48e0fc4e3d442b04b5c975c45651, type: 3}
+      propertyPath: m_Name
+      value: SceneLoader
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 50ee48e0fc4e3d442b04b5c975c45651, type: 3}
+--- !u!95 &1306810006 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1440155036895977560, guid: 50ee48e0fc4e3d442b04b5c975c45651, type: 3}
+  m_PrefabInstance: {fileID: 1306810005}
+  m_PrefabAsset: {fileID: 0}
 --- !u!65 &1415630681 stripped
 BoxCollider:
   m_CorrespondingSourceObject: {fileID: 1882207653, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
