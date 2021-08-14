@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Eva.unity
     guid: 1c49729cdc52ead4bba6f6ebf737faaf
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/WaterBall.unity
     guid: 1cb059e81ff5afe4d84ea9691d088bed
   - enabled: 1
