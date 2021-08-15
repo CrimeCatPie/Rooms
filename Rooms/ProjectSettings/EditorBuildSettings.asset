@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Room3.unity
     guid: 55c61a5fb82a51845a48ef983b63b055
   - enabled: 1
+    path: Assets/Scenes/MainHall.unity
+    guid: 61afe806c403c499d99023d19b3f72bd
+  - enabled: 1
     path: Assets/Scenes/ReNature.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
@@ -27,7 +30,7 @@ EditorBuildSettings:
     path: Assets/Scenes/DataFlow.unity
     guid: c8f3331024c6a41a3b4434ff928d9636
   - enabled: 1
-    path: Assets/Scenes/Iforgotthename.unity
+    path: Assets/Scenes/KANKURANG.unity
     guid: cee6c33641ff9ce439a2b439fa4a3d82
   - enabled: 1
     path: Assets/Scenes/TrapsTricksDeseases.unity
